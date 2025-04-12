@@ -35,23 +35,22 @@ function HeroSection({ onRegisterClick }: HeroSectionProps) {
         {/* Event Details */}
         <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 text-black p-8 rounded-xl shadow-2xl backdrop-blur-lg bg-opacity-95 border-4 border-yellow-500">
           <h2 className="text-3xl font-bold mb-4 uppercase tracking-wide text-center">
-            🔥 Event Details 🔥
+            Event Details
           </h2>
           <p className="text-lg font-medium">
-            📅 <span className="font-bold">Date:</span> December 15, {currentYear}
+            <span className="font-bold">Date:</span> December 15, {currentYear}
           </p>
           <p className="text-lg font-medium">
-            📍 <span className="font-bold">Location:</span> Grand Arena, New
-            York
+            <span className="font-bold">Location:</span> Grand Arena, New York
           </p>
           <p className="text-lg font-medium">
-            ⏰ <span className="font-bold">Time:</span> 6:00 PM - 11:00 PM
+            <span className="font-bold">Time:</span> 6:00 PM - 11:00 PM
           </p>
           <p className="text-lg font-medium">
-            🚪 <span className="font-bold">Doors Open:</span> 5:00 PM
+            <span className="font-bold">Doors Open:</span> 5:00 PM
           </p>
           <p className="text-lg font-medium">
-            🚌 <span className="font-bold">Free Transportation Available</span>
+            <span className="font-bold">Free Transportation Available</span>
           </p>
 
           {/* Register Button */}

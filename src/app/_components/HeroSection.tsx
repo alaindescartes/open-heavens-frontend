@@ -56,7 +56,7 @@ function HeroSection({ onRegisterClick }: HeroSectionProps) {
           {/* Register Button */}
           <button
             onClick={onRegisterClick}
-            className="mt-6 bg-black text-yellow-400 border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black font-extrabold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="mt-6 bg-black text-yellow-400 border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black font-extrabold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:cursor-pointer"
           >
             Register Now
           </button>
